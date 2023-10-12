@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+.heading{
+    color: rgba(246, 246, 77, 0.865);
+    font-size: 50px;
+    text-shadow: 2px 2px 15px #ffe205, 2px 2px 15px #00ff0d;
+}
+#playgame:hover {
+    color: #003400;
+    text-shadow: 2px 2px 15px #00FF00, 2px 2px 15px #00FF00;
+    cursor: pointer;
+}
+.sign{
+    color: #004300;
+    text-shadow: 0 0 6px #00FF00, 0 0 6px #00FF00;
+    font-size: 90px;
+    text-align: center;
+}
+.form-label{
+    color: rgba(246, 246, 77, 0.865);
+    text-shadow: 2px 2px 15px #ffe205, 2px 2px 15px #00ff0d;
+    font-weight: bold;
+}
+td{
+    height: 150px;
+    width: 150px;
+}
+table{
+    display: flex;
+    justify-content: center;
+   
+}
+.fortd {
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    
+}
+.fortd:hover{
+    background: #ffe205 ;
+    cursor: pointer;
+
+}
+.table{
+    display: none;
+
+}
+
+.line0 {
+    width: 440px;
+    height: 20px;
+    background: rgb(0, 164, 0);
+    animation-name: line0;
+    animation-duration:2s;  
+    animation-fill-mode: forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 550px;
+    left: 619px;
+}
+  
+@keyframes line0 {
+    from {width: 0px;}
+    to {width: 440px; background-color: rgb(0, 164, 0);}
+}
+
+.line1 {
+    width: 440px;
+    height: 20px;
+    background: rgb(0, 164, 0);
+    animation-name: line1;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 400px;
+    left: 619px;
+}
+  
+@keyframes line1 {
+    from {width: 0px;}
+    to {width: 440px; background-color: rgb(0, 164, 0);}
+}
+  
+.line2 {
+    width: 440px;
+    height: 20px;
+    background: rgb(0, 164, 0);
+    animation-name: line2;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 250px;
+    left: 619px;
+}
+  
+@keyframes line2 {
+    from {width: 0px;}
+    to {width: 440px; background-color: rgb(0, 164, 0);}
+}
+
+.line3 {
+    width: 20px;
+    height: 440px;
+    background: rgb(0, 164, 0);
+    animation-name: line3;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 188px;
+    left: 675px;
+}
+  
+@keyframes line3 {
+    from {height: 0px;}
+    to {height: 440px; background-color: rgb(0, 164, 0);}
+}
+
+.line4 {
+    width: 20px;
+    height: 440px;
+    background: rgb(0, 164, 0);
+    animation-name: line4;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 188px;
+    left: 825px;
+}
+  
+@keyframes line4 {
+    from {height: 0px;}
+    to {height: 440px; background-color: rgb(0, 164, 0);}
+}
+
+.line5 {
+    width: 20px;
+    height: 440px;
+    background: rgb(0, 164, 0);
+    animation-name: line5;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 188px;
+    left: 975px;
+}
+  
+@keyframes line5 {
+    from {height: 0px;}
+    to {height: 440px; background-color: rgb(0, 164, 0);}
+}
+
+.line6 {
+    width: 20px;
+    height: 600px;
+    background: rgb(0, 164, 0);
+    animation-name: line6;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 110px;
+    left: 828px;
+    transform: rotate(135deg);
+}
+  
+@keyframes line6 {
+    from {height: 0px;}
+    to {height: 600px; background-color: rgb(0, 164, 0);}
+}
+
+.line7 {
+    width: 20px;
+    height: 600px;
+    background: rgb(0, 164, 0);
+    animation-name: line7;
+    animation-duration: 2s;  
+    animation-fill-mode:forwards;
+    position: absolute;
+    z-index: 2;
+    bottom: 110px;
+    left: 828px;
+    transform: rotate(-135deg);
+}
+  
+@keyframes line7 {
+    from {height: 0px;}
+    to {height: 600px; background-color: rgb(0, 164, 0);}
+}
